@@ -1,12 +1,11 @@
+import babel from '@rollup/plugin-babel'
 import svgr from '@svgr/rollup'
-import babel from 'rollup-plugin-babel'
 import commonjs from 'rollup-plugin-commonjs'
 import copy from 'rollup-plugin-copy'
 import resolve from 'rollup-plugin-node-resolve'
 import external from 'rollup-plugin-peer-deps-external'
 import postcss from 'rollup-plugin-postcss'
 import url from 'rollup-plugin-url'
-
 import pkg from './package.json'
 
 export default {
