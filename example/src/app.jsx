@@ -30,7 +30,7 @@ export default () => {
           onResized={onResized}
           src="html/frame.content.html"
           width="100%"
-          scrolling="no"
+          scrolling={false}
         />
       </div>
       <p id="callback">
