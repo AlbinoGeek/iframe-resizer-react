@@ -17,6 +17,7 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "@babel/core": "file:../node_modules/@babel/core",
     "typescript": "file:../node_modules/typescript"
   }
 }
