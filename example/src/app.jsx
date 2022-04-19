@@ -38,8 +38,8 @@ export default () => {
       </p>
       <div style={{ margin: '8px 0', fontSize: '13px' }}>
         For details on how this works, see{' '}
-        <a href="http://davidjbradshaw.github.io/iframe-resizer/">
-          http://davidjbradshaw.github.io/iframe-resizer/
+        <a href="http://AlbinoGeek.github.io/iframe-resizer/">
+          http://AlbinoGeek.github.io/iframe-resizer/
         </a>
         .
       </div>

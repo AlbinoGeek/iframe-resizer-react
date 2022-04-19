@@ -7,7 +7,7 @@ process easy and effective for everyone involved.
 
 ## Using the issue tracker
 
-The [issue tracker](https://github.com/davidjbradshaw/iframe-resizer-react/issues) is
+The [issue tracker](https://github.com/AlbinoGeek/iframe-resizer-react/issues) is
 the preferred channel for [bug reports](#bug-reports), [features requests](#feature-requests)
 and [submitting pull requests](#pull-requests).
 

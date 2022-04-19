@@ -2,7 +2,7 @@
 
 [![NPM](https://img.shields.io/npm/v/iframe-resizer-react.svg)](https://www.npmjs.com/package/iframe-resizer-react)
 
-This library is the official React interface for [iframe-resizer](https://github.com/davidjbradshaw/iframe-resizer), which enables the automatic resizing of the height and width of both same and cross domain iFrames to fit their contained content. It provides a range of features to address the most common issues with using iFrames, these include:
+This library is the official React interface for [iframe-resizer](https://github.com/AlbinoGeek/iframe-resizer), which enables the automatic resizing of the height and width of both same and cross domain iFrames to fit their contained content. It provides a range of features to address the most common issues with using iFrames, these include:
 
 - Height and width resizing of the iFrame to content size.
 - Works with multiple and nested iFrames.
@@ -31,7 +31,7 @@ npm install --save iframe-resizer-react
 
 ## Usage
 
-The `<IframeResizer />` component can be passed all`<iframe>` atrributes, along with _[options](https://github.com/davidjbradshaw/iframe-resizer/blob/master/docs/parent_page/options.md)_ and _[events](https://github.com/davidjbradshaw/iframe-resizer/blob/master/docs/parent_page/events.md)_ from [iframe-resizer](https://github.com/davidjbradshaw/iframe-resizer). You can also optionally pass a `forwardRef` to gain access to a few _[methods](https://github.com/davidjbradshaw/iframe-resizer/blob/master/docs/parent_page/methods.md)_ that provide a simple interface to communicate with the page in the iframe.
+The `<IframeResizer />` component can be passed all`<iframe>` atrributes, along with _[options](https://github.com/AlbinoGeek/iframe-resizer/blob/master/docs/parent_page/options.md)_ and _[events](https://github.com/AlbinoGeek/iframe-resizer/blob/master/docs/parent_page/events.md)_ from [iframe-resizer](https://github.com/AlbinoGeek/iframe-resizer). You can also optionally pass a `forwardRef` to gain access to a few _[methods](https://github.com/AlbinoGeek/iframe-resizer/blob/master/docs/parent_page/methods.md)_ that provide a simple interface to communicate with the page in the iframe.
 
 ```jsx
 <IframeResizer
@@ -41,7 +41,7 @@ The `<IframeResizer />` component can be passed all`<iframe>` atrributes, along 
 />
 ```
 
-The page in the iframe then needs ([iframeResizer.contentWindow.min.js](https://raw.github.com/davidjbradshaw/iframe-resizer/master/js/iframeResizer.contentWindow.min.js)) from [iframe-resizer](https://github.com/davidjbradshaw/iframe-resizer). _This file is designed to be a guest on someone else's system, so has no dependencies and won't do anything until it's activated by a message from the containing page_.
+The page in the iframe then needs ([iframeResizer.contentWindow.min.js](https://raw.github.com/AlbinoGeek/iframe-resizer/master/js/iframeResizer.contentWindow.min.js)) from [iframe-resizer](https://github.com/AlbinoGeek/iframe-resizer). _This file is designed to be a guest on someone else's system, so has no dependencies and won't do anything until it's activated by a message from the containing page_.
 
 ### Typical setup
 
@@ -59,7 +59,7 @@ The normal configuration is to have the iframe resize when the browser window ch
 
 ### Advanced Setup
 
-This is a more advanced configuration, taken from the [example](https://github.com/davidjbradshaw/iframe-resizer-react/tree/master/example) folder, which demostrates the use of _options_, _events_ and _methods_ from the [iframe-resizer](https://github.com/davidjbradshaw/iframe-resizer) API. See below for more details.
+This is a more advanced configuration, taken from the [example](https://github.com/AlbinoGeek/iframe-resizer-react/tree/master/example) folder, which demostrates the use of _options_, _events_ and _methods_ from the [iframe-resizer](https://github.com/AlbinoGeek/iframe-resizer) API. See below for more details.
 
 ```jsx
 import React, { useRef, useState } from 'react'
@@ -98,18 +98,18 @@ export default () => {
 
 ## API Documentation
 
-The full [iframe-resizer](https://github.com/davidjbradshaw/iframe-resizer) API is supported by the `<IframeResizer/>` compontent, except for the methods and events used to remove an iframe from the page. Instead you should just remove the componet via JSX and it will internally call these methods for you to remove attached handlers.
+The full [iframe-resizer](https://github.com/AlbinoGeek/iframe-resizer) API is supported by the `<IframeResizer/>` compontent, except for the methods and events used to remove an iframe from the page. Instead you should just remove the componet via JSX and it will internally call these methods for you to remove attached handlers.
 
 - **Parent Page API**
-  - [Options](https://github.com/davidjbradshaw/iframe-resizer/blob/master/docs/parent_page/options.md)
-  - [Events](https://github.com/davidjbradshaw/iframe-resizer/blob/master/docs/parent_page/events.md) _(**Except** onClose and onClosed)_
-  - [Methods](https://github.com/davidjbradshaw/iframe-resizer/blob/master/docs/parent_page/methods.md) _(**Except** close() and removeListeners())_
+  - [Options](https://github.com/AlbinoGeek/iframe-resizer/blob/master/docs/parent_page/options.md)
+  - [Events](https://github.com/AlbinoGeek/iframe-resizer/blob/master/docs/parent_page/events.md) _(**Except** onClose and onClosed)_
+  - [Methods](https://github.com/AlbinoGeek/iframe-resizer/blob/master/docs/parent_page/methods.md) _(**Except** close() and removeListeners())_
   _These methods are exported directly via `forwardRef`, rather than being attached to the iframe_
 - **IFramed Page API**
-  - [Options](https://github.com/davidjbradshaw/iframe-resizer/blob/master/docs/iframed_page/options.md)
-  - [Events](https://github.com/davidjbradshaw/iframe-resizer/blob/master/docs/iframed_page/events.md)
-  - [Methods](https://github.com/davidjbradshaw/iframe-resizer/blob/master/docs/iframed_page/methods.md)
-- [Troubleshooting](https://github.com/davidjbradshaw/iframe-resizer/blob/master/docs/troubleshooting.md)
+  - [Options](https://github.com/AlbinoGeek/iframe-resizer/blob/master/docs/iframed_page/options.md)
+  - [Events](https://github.com/AlbinoGeek/iframe-resizer/blob/master/docs/iframed_page/events.md)
+  - [Methods](https://github.com/AlbinoGeek/iframe-resizer/blob/master/docs/iframed_page/methods.md)
+- [Troubleshooting](https://github.com/AlbinoGeek/iframe-resizer/blob/master/docs/troubleshooting.md)
 
 ## Alternatives
 
@@ -117,4 +117,4 @@ This project uses React Hooks internally, so requires React 16.8 or later. If yo
 
 ## License
 
-MIT © [davidjbradshaw](https://github.com/davidjbradshaw)
+MIT © [AlbinoGeek](https://github.com/AlbinoGeek)
