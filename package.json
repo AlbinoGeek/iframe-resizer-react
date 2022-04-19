@@ -78,7 +78,7 @@
     "eslint-plugin-unicorn": "^42.0.0",
     "gh-pages": "^2.2.0",
     "postcss": "^8.4.12",
-    "prettier": "^2.0.4",
+    "prettier": "^2.6.2",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-scripts": "^5.0.1",
