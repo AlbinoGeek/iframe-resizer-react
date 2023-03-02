@@ -811,7 +811,7 @@
   dependencies:
     "@babel/plugin-transform-react-jsx" "^7.16.7"
 
-"@babel/plugin-transform-react-jsx@^7.16.7", "@babel/plugin-transform-react-jsx@^7.17.3":
+"@babel/plugin-transform-react-jsx@^7.16.7":
   version "7.17.3"
   resolved "https://registry.yarnpkg.com/@babel/plugin-transform-react-jsx/-/plugin-transform-react-jsx-7.17.3.tgz#eac1565da176ccb1a715dae0b4609858808008c1"
   integrity sha512-9tjBm4O07f7mzKSIlEmPdiE6ub7kfIe6Cd+w+oQebpATfTQMAgW+YOuWxogbKVTulA+MEO7byMeIUtQ1z+z+ZQ==
@@ -3319,9 +3319,9 @@ dns-equal@^1.0.0:
   integrity sha1-s55/HabrCnW6nBcySzR1PEfgZU0=
 
 dns-packet@^5.2.2:
-  version "5.3.1"
-  resolved "https://registry.yarnpkg.com/dns-packet/-/dns-packet-5.3.1.tgz#eb94413789daec0f0ebe2fcc230bdc9d7c91b43d"
-  integrity sha512-spBwIj0TK0Ey3666GwIdWVfUpLyubpU53BTCu8iPn4r4oXd9O14Hjg3EHw3ts2oed77/SeckunUYCyRlSngqHw==
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/dns-packet/-/dns-packet-5.4.0.tgz#1f88477cf9f27e78a213fb6d118ae38e759a879b"
+  integrity sha512-EgqGeaBB8hLiHLZtp/IbaDQTL8pZ0+IvwzSHA6d7VyMDM+B9hgddEMa9xjK5oYnw0ci0JQ6g2XCD7/f6cafU6g==
   dependencies:
     "@leichtgewicht/ip-codec" "^2.0.1"
 
@@ -4509,15 +4509,15 @@ identity-obj-proxy@^3.0.0:
     harmony-reflect "^1.4.6"
 
 "iframe-resizer-react@file:..":
-  version "1.0.5"
+  version "1.0.4"
   dependencies:
-    iframe-resizer "^4.2.10"
+    iframe-resizer "^4.3.2"
     warning "^4.0.3"
 
-iframe-resizer@^4.2.10:
-  version "4.3.2"
-  resolved "https://registry.yarnpkg.com/iframe-resizer/-/iframe-resizer-4.3.2.tgz#42dd88345d18b9e377b6044dddb98c664ab0ce6b"
-  integrity sha512-gOWo2hmdPjMQsQ+zTKbses08mDfDEMh4NneGQNP4qwePYujY1lguqP6gnbeJkf154gojWlBhIltlgnMfYjGHWA==
+iframe-resizer@^4.3.2:
+  version "4.3.5"
+  resolved "https://registry.yarnpkg.com/iframe-resizer/-/iframe-resizer-4.3.5.tgz#d8bdc843f36eaebe2dd7b258e7234f438073cf8b"
+  integrity sha512-pziqOCczYtbVFgzU3KcjQDS+pMhj4QgL7JutUVazt73xeIWtx+CSRlFQp7aJ2i1bUSZwgbjSP2dez4yelV76yw==
 
 ignore@^5.1.8, ignore@^5.2.0:
   version "5.2.0"
